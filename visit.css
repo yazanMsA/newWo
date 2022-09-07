@@ -1,0 +1,615 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+.container .ul1{
+    float: left;
+    margin-left: 12%;
+    position: absolute;
+    top: 10px;
+}
+.container .ul1 li{
+    display: inline-block;
+    color: white;
+}
+.container .top{
+    width: 65%;
+    height: 6%;
+    float: left;
+    margin-left: 12%;
+    position: absolute;
+    top: 40px;
+    background-color: #DCDCDC;
+}
+.container .top .name{
+    float: left;
+    margin-left: 20px;
+    position: absolute;
+    top: 25%;
+}
+.container .top .ul2{
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    top: 25%;
+}
+.container .top .ul2 li{
+    display: inline-block;
+}
+.container .top .ul2 li a{
+    color: black;
+    text-decoration: none;
+}
+.container .content{
+    width: 60%;
+    height: 25%;
+    opacity: 0.9;
+    position: relative;
+
+    bottom: 50%;
+    margin-left: 20%;
+}
+.container .content .p1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.container .content .p1 .sp1{
+    color: #B048B5;
+}
+.container .content .pr1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.container .but1{
+    position: absolute;
+    bottom: 15%;
+    left: 44%;
+    width: 8%;
+    height: 8%;
+    background-color: #B048B5;
+    color: white;
+}
+/*نهاية الصورة بالبداية مع محتوياتها*/
+h1, .p2{
+    text-align: center;
+}
+.p2{
+    color: grey;
+}
+.box1{
+    width: 85%;
+    height: 75%;
+    background-color: white;
+    margin-left: 8%;
+    display: flex;
+    position: relative;
+}
+.box1 .box11{
+    width: 49%;
+    height: 48%;
+    background-color: white;
+    display: inline-block;
+}
+.box1 .box12{
+    width: 49%;
+    height: 48%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+.box1 .box1a{
+    width: 49%;
+    height: 48%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+}
+.box1 .box1b{
+    width: 49%;
+    height: 48%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.box1 .box12 .photo1{
+    position: absolute;
+    right: 0px;
+}
+.box1 .box1a .photo2{
+    position: absolute;
+    right: 0px;
+}
+/*نهاية أول قسم*/
+.dPhoto{
+    width: auto;
+    height: 60%;
+    display: flex;
+    position: relative;
+}
+.dPhoto .dPhoto1{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    opacity: 0.9;
+    margin-left: 8%;
+}
+.dPhoto .list{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+}
+/*اول صف*/
+.dPhoto .list .ul3{
+    position: relative;
+    top: 5%;
+}
+.dPhoto .list .ul3 .div1{
+    width: 80%;
+    height: 6%;
+    background-color: #355C7D;
+    border-radius: 10px;
+}
+.dPhoto .list .ul3 .pli{
+    text-align: center;
+    position: relative;
+    top: 3px;
+    color: white;
+    font-size: 17px;
+}
+.dPhoto .list .ul3 .ul4 .ud1{
+    width: 65%;
+    height: 6%;
+    background-color: #725A7A;
+    border-radius: 10px;
+}
+.dPhoto .list .ul3 .ul4 .ud{
+    width: 65%;
+    height: 6%;
+    background-color: white;
+    border-radius: 10px;
+}
+/*ثاني صف*/
+.dPhoto .list .ul3 .div2{
+    width: 80%;
+    height: 6%;
+    background-color: #355C7D;
+    border-radius: 10px;
+}
+.dPhoto .list .ul3 .ul5 .ud1{
+    width: 65%;
+    height: 6%;
+    background-color: #725A7A;
+    border-radius: 10px;
+}
+.dPhoto .list .ul3 .ul5 .ud{
+    width: 65%;
+    height: 6%;
+    background-color: white;
+    border-radius: 10px;
+}
+.d1{
+    height: 90%;
+    width: auto;
+    opacity: 0.9;
+    position: relative;
+}
+.d1 .p3, h5{
+    float: left;
+    margin-left: 10%;
+    color: black;
+}
+.d1 .p3{
+    position: absolute;
+    top: 30%;
+    font-size: 30px;
+}
+.d1 h5{
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+}
+.d1 h5 .sp2{
+    color: #B048B5;
+}
+.d1 .pr2{
+    position: absolute;
+    top: 50%;
+    margin-left: 10%;
+    font-size: 17px;
+}
+.d1 .but2{
+    position: absolute;
+    top: 70%;
+    width: 12%;
+    height: 8%;
+    background-color: white;
+    margin-left: 10%;
+}
+h1, .p4{
+    text-align: center;
+}
+.p4{
+    color: grey;
+}
+.d2{
+    height: 75%;
+    width: 83%;
+    background-color: white;;
+    margin-left: 10%;
+    position: relative;
+}
+.d2 .pricing3{
+    position: absolute;
+    right: 0%;
+}
+.d2 .d2p1{
+    position: absolute;
+    top: 6%;
+    color: white;
+    font-size:  20px;
+    margin-left: 8%;
+}
+.d2 .d2p2{
+    position: absolute;
+    top: 6%;
+    color: white;
+    font-size:  20px;
+    right: 8%;
+}
+.d2 .d2div1, .d2div2, .d2div3, .d2div4, .d2div5, .d2div11, .d2div21, .d2div31, .d2div41, .d2div51{
+    width: 8%;
+    height: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+.d2 .d2div1{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.d2 .d2div2{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.d2 .d2div3{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+.d2 .d2div4{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+.d2 .d2div5{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+}
+.d2 .d2div11{
+    position: absolute;
+    top: 30%;
+    right: 0.3%;
+}
+.d2 .d2div21{
+    position: absolute;
+    top: 40%;
+    right: 0.3%;
+}
+.d2 .d2div31{
+    position: absolute;
+    top: 50%;
+    right: 0.3%;
+}
+.d2 .d2div41{
+    position: absolute;
+    top: 60%;
+    right: 0.3%;
+}
+.d2 .d2div51{
+    position: absolute;
+    top: 70%;
+    right: 0.3%;
+}
+.d2 .d2p{
+    position: absolute;
+    top: 3px;
+    left: 7px;
+}
+.amazing{
+    text-align: center;
+    font-size: 30px;
+}
+.p5{
+    text-align: center;
+    color: grey;
+}
+.abcd{
+    height: 70%;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    left: 10%;
+    display: flex;
+}
+.abcd .ab1{
+    height: 100%;
+    width: 24%;
+    background-color: white;
+    border: 1px solid black;
+}
+.abcd .ab2{
+    height: 100%;
+    width: 24%;
+    background-color: white;
+    position: absolute;
+    left: 25.4%;
+    border: 1px solid black;
+}
+.abcd .ab3{
+    height: 100%;
+    width: 24%;
+    background-color: white;
+    position: absolute;
+    right: 25.4%;
+    border: 1px solid black;
+}
+.abcd .ab4{
+    height: 100%;
+    width: 24%;
+    background-color: white;
+    position: absolute;
+    right: 0%;
+    border: 1px solid black;
+}
+.abcd .pr3{
+    position: absolute;
+    left: 3%;
+    bottom: 2%;
+    font-size: 15px;
+}
+/*الصورة ذات الحجم 50*/
+.abc{
+    height: 70%;
+    width: auto;
+    background-color: #d0dbe2;
+    position: relative
+}
+.abc .abcH1{
+    position: absolute;
+    top: 5%;
+    left: 33.5%;
+}
+.abc .p6{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+.abc .test{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    border-radius: 50px;
+}
+.abc .abcp1{
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    font-size: 20px;
+    color: #B048B5;
+}
+.abc .abcpr4{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-size: 15px;
+    color: grey;
+}
+.beach{
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    position: relative;
+    left: 7.5%;
+}
+.beach .bPhoto{
+    position: absolute;
+    top: 2.5%;
+    right: 0%;
+}
+.beach .bh1{
+    position: absolute;
+    top: 15.5%;
+    left: 0%;
+}
+.beach .b2h1{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+.beach .b3h1{
+    position: absolute;
+    top: 33%;
+    left: 0%;
+}
+.beach .bpr1{
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    font-size: 15px;
+    color: grey;
+}
+.beach .but3{
+    position: absolute;
+    left: 2%;
+    top: 75%;
+    background-color: #5A5A80;
+    color: white;
+    height: 10%;
+    width: 15%;
+    font-size: 15px;
+}
+.theH1{
+    text-align: center;
+    font-size: 35px;
+}
+.p7{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+.div6{
+    height: 50%;
+    width: 85%;
+    background-color: white;
+    position: relative;
+    left: 7.5%;
+}
+.div6 .d1div6{
+    height: 100%;
+    width: 32%;
+    background-color: white;
+    position: absolute;
+    left: 0%;
+}
+.div6 .d2div6{
+    height: 100%;
+    width: 32%;
+    background-color: white;
+    position: absolute;
+    left: 34%;
+}
+.div6 .d3div6{
+    height: 100%;
+    width: 32%;
+    background-color: white;
+    position: absolute;
+    right: 0%;
+}
+.div6 .h3, .h4, .h5{
+    position: absolute;
+    bottom: 34%;
+}
+.div6 .pr5, .pr6, .pr7{
+    position: absolute;
+    bottom: 18%;
+    font-size: 15px;
+    color: grey;
+}
+.final{
+    height: 35%;
+    width: auto;
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    position: relative;
+}
+.final .f1{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+}
+.final .f2{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+    position: absolute;
+    left: 25.4%;
+}
+.final .f3{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+    position: absolute;
+    right: 25.4%;
+}
+.final .f4{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(43, 40, 40);
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+}
+.final .f1 .one{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 25px;
+    color:white;
+}
+.final .f2 .two{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 25px;
+    color:white;
+}
+.final .f3 .three{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 25px;
+    color:white;
+}
+.final .f4 .four{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 25px;
+    color:white;
+}
+.final .f1 .f1pr{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    font-size: 15px;
+    color:white;
+}
+.final .f3 .f3pr{
+    position: absolute;
+    top: 35%;
+    left: 1%;
+    font-size: 15px;
+    color:white;
+}
+.final .f2 .f2u{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    font-size: 15px;
+    color:white;
+}
+.final .f2 .f3u{
+    position: absolute;
+    top: 37%;
+    right: 5%;
+    font-size: 15px;
+    color:white;
+}
+.final .f4 .i2{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+}
